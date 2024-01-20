@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #00419d;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -26,8 +26,21 @@ ul {
     padding: 0;
 }
 
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cor de destaque do WhatsApp ao passar o mouse */
+}
+
 footer {
-    background-color: #333;
+    background-color: #002c6a;
     color: #fff;
     padding: 1em;
     text-align: center;
