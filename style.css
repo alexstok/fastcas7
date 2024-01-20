@@ -1,16 +1,19 @@
 /* Adapte o estilo conforme necessário */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
 header {
-    background-color: #00419d;
+    background-color: #333;
     color: #fff;
     padding: 1em;
     text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 main {
@@ -27,12 +30,21 @@ ul {
 }
 
 .whatsapp-button {
-    display: inline-block;
-    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 25px;
     background-color: #25D366; /* Cor verde do WhatsApp */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 .whatsapp-button:hover {
@@ -40,8 +52,9 @@ ul {
 }
 
 footer {
-    background-color: #002c6a;
+    background-color: #333;
     color: #fff;
     padding: 1em;
     text-align: center;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
 }
